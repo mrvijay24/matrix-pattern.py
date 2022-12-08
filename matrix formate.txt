@@ -1,0 +1,9 @@
+#program to print in the matrix formate
+n=int(input('enter the number of rows:'))
+m=int(input('enter the number of columns:'))
+k=1
+for i in range(0,n):
+    for i in range(0,m):
+        print(k,end=' ')
+        k=k+1
+    print()
